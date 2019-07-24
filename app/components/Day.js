@@ -8,9 +8,9 @@ export default class Day extends PureComponent {
   render() {
     return (
       <div className='day'>
-        <span className='day_abbrev'>{this.props.name}</span>
+        <span className='day_abbrev'>Day Name</span>
+        <span className='day_number'>Day Num</span>
         <span className='day_weather_icon'>Icon Here</span>
-        <span className='day_number'>{this.props.monthDay}</span>
       </div>
     );
   }
